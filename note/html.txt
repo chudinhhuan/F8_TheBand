@@ -1,0 +1,22 @@
+Một số thẻ trong html:
+1. h1-h6  heading
+2.p - paragraph 
+3.img : <img src="link" alt="text"
+
+5.ul(ol) ,li  - danh sach
+6.table -<thead><th> /<tbody><tr><td>
+7. input type="text/checkbox/radio"
+8.<button> dang nhap 
+9. div 
+
+Atribute :  title="ghi chu" 
+
+một số thẻ căn bản : 
+- b: in đậm
+- i : in nghiêng 
+- u : gạch chân
+- em: in ngiêng
+ - center : căn giữa
+- br: ngắt dòng
+- hr: tạo dòng kẻ ngang
+- thẻ link liên kết : <a href="link">text</a>

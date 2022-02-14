@@ -1,0 +1,9 @@
+Những thành phần thường gặp trên theme web:
+1. header
+2.navigation ( điều hướng )
+3.breadcrum ( kiểu như map cho bạn biết đang ở đâu)
+4.sidebar 
+5.slider
+6.content
+7.baner
+8.footer 

@@ -1,0 +1,64 @@
+1.Đơn vị 
+	* absolute units ( tuyệt đối)
+	-px,pt,cm,mm,inch,pc
+
+	* relative units (tương đối)
+	- % ,rem,em,vw,vh,vmin,vmax,ex,ch
+	
+	1em=16px 
+	vw : 1% màn hình width
+	vh : % màn hihf height
+
+chọn vmin ( vw if vw<vh and vh if vh>vw) và vmax ngược lại.
+2. lớp giả : 
+ :root
+ :hover
+ :active
+ :first-child
+ :last-child
+3. phần tử giả 
+ ::before{ content:"text" ; color,display:block;height,width,background-color}
+ ::after
+ ::first-letter : kí tự đầu
+ ::first-line  : dòng đầu
+ ::selection	: bôi chuột 
+4. padding , margin, border 
+	box-sizing : boder-box/content-box/unset; // thường dùng để không thay đổi size
+5. backgroud 
+	backgroud-clip : đổ màu nền cho phần content bỏ qua phần border và padding
+	backgroud-image: url(link);//dùng nhiều ảnh cùng lúc
+	backgroud-size:contain/cover ;
+	backgroud-repeat: no-repeat;
+	backgroud-origin: content-box /.... đổ màu
+	backgoud-position: bottom center/top/px; căn chỉnh trái -phải-giữa-trên -dưới
+=======gộp backgroud:  
+=====================================================
+II> Thuộc tính vị trí : Position
+	* position: relative; // lấy chính mình làm gốc
+	top: px;
+	left: px;
+	* position : absolute;// phụ thuộc vào thẻ parent position gần nhất. 
+
+	* position: fixed;  // kéo để thanh head không di chuyển theo; < bám dính>
+
+	top:0;
+	* position: sticky;  //bám dính
+	 position: -webkit-sticky;
+	 top:0; 	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
